@@ -1,0 +1,40 @@
+1. Inicio
+2. suma d[0-n]
+3. suma <-- 0
+4. contador d[0-n]
+5. contador <-- 0
+6. media d[0-n]
+7. media <-- 0
+8. salida x(99) [{A-Z} {a-z}]
+9. salida <-- ""
+10. numero d[0-n]
+11. numero <-- 0
+
+12. Mientras bandera = True entonces
+13.    <<"Ingrese un numero"
+14.    >> numero
+15.    suma <-- suma+numero
+16.    contador <-- contador+1
+17.    <<"Si deseas dejar de ingresar numeros escribe (S, Si, si, s o salir) "
+18.    >> salida
+19.    Si salida == "S" entonces
+20.        bandera<-- False
+21.    Fin Si
+22.    Si salida == "Si" entonces
+23.        bandera <-- False
+24.    Fin Si
+25.    Si salida == "s" entonces
+26.        bandera <-- False
+27.    Fin Si
+28.    Si salida == "si" entonces
+29.        bandera <-- False
+30.    Fin Si
+31.    Si salida == "salir" entonces
+32.        bandera <-- False
+33.    Fin Si
+34. Fin Mientras
+35. media <-- suma/contador
+36. <<"La media es"
+37. << media
+38. Fin
+ 

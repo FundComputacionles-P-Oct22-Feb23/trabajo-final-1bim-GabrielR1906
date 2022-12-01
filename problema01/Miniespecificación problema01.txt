@@ -14,40 +14,15 @@
 12. <<"Ingrese el valor del ánuglo 3:"
 13. >>angulo3
 
-14. Si angulo1 == 90 entonces
+14. Si angulo1 == 90 entonces or angulo2 == 90 or angulo3 == 90 entonces
 15. 	<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
 16. De lo contrario
-17. 	Si angulo2 == 90 entonces
-18. 		<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
+17. 	Si (angulo1 > 90 and angulo1 < 180) or (angulo2 > 90 and angulo2 < 180) or (angulo3 > 90 and angulo3 < 180) entonces
+18. 		<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo2
 19. 	De lo contrario
-20.  		Si angulo3 == 90 entonces
-21. 			<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
+20.  		Si angulo1 < 90 or angulo2 < 90 or angulo3 < 90 entonces
+21. 			<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo3
 22. 		Fin Si
 23. 	Fin Si
 24. Fin Si
-
-25. Si angulo1 > 90 and angulo1 < 180 entonces
-26. 	<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo2
-27. De lo contrario
-28. 	Si angulo2 > 90 and angulo2 < 180 entonces
-29. 		<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo2
-30. 	De lo contrario
-31. 		Si angulo3 > 90 and angulo3 < 180 entonces
-32. 			<<”Los datos ingresados pertenecen a un triángulo: “ + tipo2
-33. 		Fin Si
-34. 	Fin Si
-35. Fin Si
-
-36. Si angulo1 < 90 entonces
-37. 	<<Los datos ingresados pertenecen a un triángulo: “ + tipo3
-38. De lo contrario
-39. 	Si angulo2 < 90 entonces
-40. 		<<Los datos ingresados pertenecen a un triángulo: “ + tipo3
-41. 	De lo contrario
-42. 		Si angulo3 < 90 entonces
-43. 			<<Los datos ingresados pertenecen a un triángulo: “ + tipo3
-44. 		Fin Si
-45. 	Fin Si
-46. Fin Si
-
-47. Fin
+25. Fin
