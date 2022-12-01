@@ -1,0 +1,53 @@
+1.  Inicio
+
+2.  angulo1, d [0-n]
+3.  angulo2, d [0-n]
+4.  angulo3, d [0-n]
+5.  tipo1, x(20)[{A-Z} , {a-z} , {BS}] ← rectàngulo
+6.  tipo2, x(20)[{A-Z} , {a-z} , {BS}] ← obtusàngulo
+7.  tipo3, x(20)[{A-Z} , {a-z} , {BS}] ← acutángulo
+
+8.  <<”Ingrese el valor del ángulo 1:”
+9.  >>angulo1
+10. <<"Ingrese el valor del ángulo 2:"
+11. >>angulo2
+12. <<"Ingrese el valor del ánuglo 3:"
+13. >>angulo3
+
+14. Si angulo1 == 90 entonces
+15. 	<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
+16. De lo contrario
+17. 	Si angulo2 == 90 entonces
+18. 		<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
+19. 	De lo contrario
+20.  		Si angulo3 == 90 entonces
+21. 			<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
+22. 		Fin Si
+23. 	Fin Si
+24. Fin Si
+
+25. Si angulo1 > 90 and angulo1 < 180 entonces
+26. 	<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo2
+27. De lo contrario
+28. 	Si angulo2 > 90 and angulo2 < 180 entonces
+29. 		<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo2
+30. 	De lo contrario
+31. 		Si angulo3 > 90 and angulo3 < 180 entonces
+32. 			<<”Los datos ingresados pertenecen a un triángulo: “ + tipo2
+33. 		Fin Si
+34. 	Fin Si
+35. Fin Si
+
+36. Si angulo1 < 90 entonces
+37. 	<<Los datos ingresados pertenecen a un triángulo: “ + tipo3
+38. De lo contrario
+39. 	Si angulo2 < 90 entonces
+40. 		<<Los datos ingresados pertenecen a un triángulo: “ + tipo3
+41. 	De lo contrario
+42. 		Si angulo3 < 90 entonces
+43. 			<<Los datos ingresados pertenecen a un triángulo: “ + tipo3
+44. 		Fin Si
+45. 	Fin Si
+46. Fin Si
+
+47. Fin

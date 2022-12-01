@@ -1,0 +1,26 @@
+1.  Inicio
+
+2.  numero, i[0-n]
+3.  contador, i[0-n]
+4.  suma, i[0-n]
+5.  contador ← 2
+6.  suma ← 0
+
+7.  <<”Ingrese un número par:”
+8.  >>numero
+9.  Si numero <= contador entonces
+10. 	<<”error”
+11. Fin Si
+
+12. Si numero MOD 2 == 0 entonces
+13. 	Mientras contador <= numero entonces
+14. 		suma = suma + contador
+15. 		contador = contador + 2
+16. 	Fin Mientras
+17. 	<”<La suma de los números pares del 2 hasta el número ingresado es:”
+18. 	<<suma
+19. De lo Contrario
+20. 	<<”Ese número no es par”
+21. Fin Si
+
+22. Fin

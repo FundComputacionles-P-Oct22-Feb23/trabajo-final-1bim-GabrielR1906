@@ -1,0 +1,23 @@
+1.  Inicio
+
+2.  Pedimos el valor de X
+
+3.  Pedimos el valor de Y
+
+4.  Si el valor de Y es menor a 0 entonces será negativo
+
+5.  Si el valor de Y es mayor a 0 entonces será positivo
+
+6.  Si el valor de X es menor a 0 entonces será negativo
+
+7.  Si el valor de X es mayor a 0 entonces será positivo
+
+8.  Si X es positivo y Y es positivo entonces pertenece al cuadrante 1 y se presenta en pantalla.
+
+9.  Si X es negativo y Y es positivo entonces pertenece al cuadrante 2 y se presenta en pantalla
+
+10. Si X es negativo y Y es negativo entonces pertenece al cuadrante 3 y se presenta en pantalla
+
+11. Si X es positivo y Y es negativo entonces pertenece al cuadrante 4 y se presenta en pantalla.
+
+12. Fin

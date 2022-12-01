@@ -1,0 +1,21 @@
+1.  Inicio
+
+2.  cadena_final, x(999) [{0-9} , {BS} , {/ , +}]
+3.  contador, i[0-n]
+4.  numerador, d[0-n]
+5.  suma, d[0-n]
+6.  cadena_final ← “”
+7.  contador ← 1
+8.  numerador ← 1
+9.  suma ← 0
+
+10. Mientras contador <= 100:
+11. 	suma ← suma + numerador / contador
+12. 	cadena_final = cadena_final + numerador + “/” + contador
+13. 	contador ← contador + 1
+14. Fin Mientras
+
+15. cadena_final ← cadena_final + \n + “Suma total: “ + suma + \n
+16. <<cadena_final
+
+17. Fin

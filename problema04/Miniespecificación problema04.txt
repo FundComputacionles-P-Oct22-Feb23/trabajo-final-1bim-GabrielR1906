@@ -1,0 +1,40 @@
+1.  Inicio
+2.  numero1 d[0-n]
+3.  numero2 d[0-n]
+4.  numero3 d[0-n]
+
+5.  <<”Ingrese numero1”
+6.  >>numero1
+7.  <<”Ingrese numero2”
+8.  >>numero2
+9.  <<”Ingrese numero3”
+10. >>numero3
+
+11. Si (numero1 != numero2 && numero1 != numero3) entonces
+12. 	Si (numero1 > numero2 && numero1 > numero3)
+13. 		<<”El numero mayor es”+numero1
+14. 	Fin Si
+15. De lo contrario
+16. 	Si (numero1 = numero2) || (numero1 = numero3) entonces 
+17. 		<< “Números incorrectos, ingrese otros.”
+18. 	Fin Si
+19. Fin Si
+20. Si (numero2 != numero1 && numero2 != numero3) entonces
+21. 	Si (numero2 > numero1 && numero2 > numero3)
+22. 		<<”El numero mayor es”+numero2
+23. 	Fin Si
+24. De lo contrario
+25. 	Si (numero2 = numero1) || (numero2 = numero3) entonces 
+26. 		<< “Números incorrectos, ingrese otros.”
+27. 	Fin Si
+28. Fin Si
+29. Si numero3 != numero2) && (numero3 != numero1) entonces
+30. 	Si (numero3 > numero2) && (numero3 > numero1)
+31. 		<<”El numero mayor es” + numero3
+32. 	Fin Si
+33. De lo contrario
+34. 	Si (numero3 = numero2) || (numero3 = numero1) entonces 
+35.  		<< “”Números incorrectos, ingrese otros.”
+36. 	Fin Si
+37. Fin Si
+38. Fin

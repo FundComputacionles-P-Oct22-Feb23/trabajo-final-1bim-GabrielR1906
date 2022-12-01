@@ -1,0 +1,38 @@
+1. Inicio
+
+2. Pedir al usuario la cantidad de trajes
+
+3. Pedir al usuario el precio unitario de cada traje
+
+4. Multiplicar la cantidad por el precio unitario para obtener el subtotal
+
+5. Si la cantidad es igual a 1, entonces el descuento será igual al subtotal multiplicado
+
+   por 20 y esto se lo divide para 100 y se obtiene el descuento
+
+6. Se resta el descuento al subtotal y se obtiene el total.
+
+7. De lo contrario, Si la cantidad es igual a 2, entonces el descuento será igual al subtotal
+   multiplicado por 25 y esto se lo divide para 100 y se obtiene el descuento
+
+8. Se resta el descuento al subtotal y se obtiene el total.
+
+9. De lo contrario, Si no se cumplen las condiciones anteriores, y si la cantidad es igual a 3,
+   entonces el descuento será igual al subtotal multiplicado por 40 y esto se lo divide para 100
+   y se obtiene el descuento
+
+10. Se resta el descuento al subtotal y se obtiene el total.
+
+11. En el caso contrario, cuando no se haya cumplido ninguna de las condiciones anteriores,
+    se va a evaluar si la cantidad es mayor a 3, y si se cumple esta condición, entonces se
+    va a multiplicar el subtotal por 50 y se divide para 100 y se obtendrá el descuento.
+
+12. Se resta el descuento al subtotal y se obtiene el total.
+
+13. Mostrar en pantalla el subtotal a pagar
+
+14. Mostrar en pantalla el descuento
+
+15. Mostrar en pantalla el total por pagar
+
+16. Fin

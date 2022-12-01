@@ -1,0 +1,38 @@
+1.  Inicio
+2.  valor1, (x) [{A-Z}, {a-z},{-n,n}]
+3.  valor2, (y) [{A-Z}, {a-z}, {-n, n}]
+4.  X, d[0-n]
+5.  Y, d[0-n]
+
+6.  << “Ingrese el punto en X”
+7.  >> X
+8.  <<”Ingrese el punto en Y”
+9.  >> Y
+
+10. SI X > 0 entonces
+11. 	valor1←Positivo
+12. Fin Si
+13. Si X< 0 entonces
+14. 	valor1←Negativo
+15. Fin Si
+16. Si Y>0 entonces
+17. 	valor2←Positivo
+18. Fin Si
+19. Si Y<0 entonces 
+20. 	valor2←Negativo
+21. Fin Si
+
+22. SI (valor1==Positivo)&&(valor2==Positivo) entonces
+23. 	<<”Sus coordenadas pertenecer a la cuadrilla 1”
+24. Fin Si
+25. Si (valor1== Negativo)&&(valor2==Positivo) entonces
+26. 	<<”Sus coordenadas pertenecen a la cuadrilla 2”
+27. Fin Si
+28. Si (valor1== Negativo)&&(valor2==Negativo) entonces
+29. 	<<”Sus coordenadas pertenecen a la cuadrilla 3”
+30. Fin Si
+31. Si (valor1==Positivo)&&(valor2==Negativo) entonces
+32. 	<<”Sus coordenadas pertenecen a la cuadrilla 4”
+33. Fin Si
+
+34. Fin

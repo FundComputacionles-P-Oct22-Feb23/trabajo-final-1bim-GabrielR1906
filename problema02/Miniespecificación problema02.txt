@@ -1,0 +1,40 @@
+1.  Inicio
+
+2.  cantidad, i[0-n]
+3.  precio, d[0-n]
+4.  subtotal, d[0-n]
+5.  descuento, d[0-n]
+6.  total, d[0-n]
+
+7.  <<”Ingrese la cantidad de trajes:”
+8.  >>cantidad
+9.  <<”Ingrese el precio unitario de los trajes:”
+10. >>precio
+
+11. subtotal <-- cantidad * precio
+12. total <-- subtotal
+13. descuento <-- 0
+
+14. Si cantidad == 1 entonces
+15.     descuento <-- (subtotal * 20) / 100
+16.     total <-- subtotal - descuento
+17. De lo contrario
+18.     Si cantidad == 2 entonces
+19.         descuento <-- (subtotal * 25) / 100
+20.         total <-- subtotal - descuento
+21.     De lo contrario
+22.         Si cantidad == 3 entonces
+23.             descuento <-- (subtotal * 40) / 100
+24.             total <-- subtotal - descuento
+25.         De lo contrario
+26.             Si cantidad > 3 entonces
+27.                 descuento <-- (subtotal * 50) / 100
+28.                 total <-- subtotal - descuento
+29.             Fin Si
+30.         Fin Si
+31.     Fin Si
+32. FinSi
+33. <<"El subtotal por pagar es: $" + subtotal + \n + "El descuento es: $" + descuento + \n + "El total por " +
+	"pagar es: $" + total + \n
+
+33. Fin

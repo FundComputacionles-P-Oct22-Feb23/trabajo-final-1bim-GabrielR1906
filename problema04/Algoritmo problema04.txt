@@ -1,0 +1,27 @@
+1. Inicio
+
+2. Preguntar numero1
+
+3. Preguntar numero2
+
+4. Preguntar numero3
+
+5. Comparar qué numero 1 sea mayor a número 2 y número 3
+
+6. Comparar que numero1 no sea igual a número 2 y a numero 3 
+
+7. Si se cumplen las 2 condiciones, Se presenta en pantalla numero1
+
+8. Comparar qué numero2 sea mayor a número 1 y número 3
+
+9. Comparar que numero2 no sea igual a número 1 y a numero 3 
+
+10. Si se cumplen las 2 condiciones, Se presenta en pantalla numero2
+
+11. Comparar qué numero3 sea mayor a número 2 y número1
+
+12. Comparar que numero3 no sea igual a número 2 y a numero1 
+
+13. Si se cumplen las 2 condiciones, Se presenta en pantalla numero3
+
+14. Fin

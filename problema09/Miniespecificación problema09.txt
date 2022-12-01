@@ -1,0 +1,29 @@
+1.  Inicio
+
+2.  a, i[0-n]
+3.  b, i [0-n]
+4.  contador, i[0-n]
+5.  contador ← 0
+6.  a ← 0
+7.  b ← 0
+8.  mensaje, x(999) [{a-z} {A-Z} {0-n}]
+9.  mensaje ← “”
+10. mas, x (999) [{a-z} {A-Z} {0-n}, {+}]
+11. menos, x(999) [{a-z} {A-Z} {0-n},{-}]
+12. resultado i[0-n]
+13. resultado ← 0
+
+14. Mientras (contador <= 8) entonces
+15. 	a←12
+16. 	b←11
+17. 	mensaje ← mensaje + a + menos + b + mas
+18. 	contador + 1
+19. 	resultado ← resultado+a-b
+20. 	a ← a+12
+21. 	b ← b+11
+22. Fin mientras
+
+23. << mensaje
+24. << resultado
+
+25. Fin

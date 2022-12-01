@@ -1,0 +1,16 @@
+1. Inicio
+
+2. Se crea primero un numerador con el valor de 1 y un contador que tenga también el valor de 1
+
+3. Mientras el contador sea menor o igual a 100, la suma total será igual al valor de la suma más el
+   numerador dividido para el contador.
+
+4. La cadena final será igual a la cadena final  más el numerador más el carácter “/” más el contador.
+
+5. Se le suma 1 al contador
+
+6. La cadena final tomará el valor de la cadena final y la suma total
+
+7. Presentar en pantalla la cadena final
+
+8. Fin

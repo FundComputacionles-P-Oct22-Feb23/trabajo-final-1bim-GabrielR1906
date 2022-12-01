@@ -1,0 +1,29 @@
+1.  Inicio
+
+2.  contador, i[0-n]
+3.  contador <-- 1
+4.  mensaje, x(1000) [{A-Z} , {a-z} , {0-9}]
+5.  mensaje = ""
+6.  mensaje2, x(1000) [{A-Z} , {a-z} , {0-9}]
+7.  mensaje2 = ""
+
+8.  <<"Ingrese una medida (N) en número de metros:"
+9.  >>medida
+
+10. Mientas contador < medida entonces
+11. 	cm <-- float(contador) * 100
+12.  	pulgada <-- float(cm) / 2.54
+13. 	pie <-- float(pulgada) / 12
+14. 	yardas <-- float(pie) / 3
+15. 	if contador <= 9 entonces
+16. 		mensaje = "%s %d       %.2f    %.2f\t    %.2f\n" % (mensaje, contador, yardas, pulgada, pie)
+17. 	Fin Si
+18. 	contador = contador + 1
+19. 	if contador >= 10 entonces
+20. 		mensaje2 = "%s %d\t\t %.2f\t %.2f     %.2f\n" % (mensaje2, contador, yardas, pulgada, pie)
+21. 	Fin Si
+22. Fin Mientras
+
+23. <<"Metros\tYardas\tPulgadas\tPies\n" + mensaje + mensaje2
+
+24. Fin
