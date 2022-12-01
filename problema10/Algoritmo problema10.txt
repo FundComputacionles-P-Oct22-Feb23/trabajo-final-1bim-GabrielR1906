@@ -1,0 +1,22 @@
+1.  Inicio
+
+2.  Se crea un contador con el valor de 0
+
+3.  Se crea una bandera con el valor de True
+
+4.  Mientras la bandera sea true entonces se le pedirá al usuario que ingrese un número
+
+5.  la suma será igual al valor de la suma más el número
+
+6.  El contador será igual al valor del contador más 1
+
+7.  Se le preguntará al usuario si quiere salir del programa
+
+8.  En caso de que el usuario desee salir, entonces bandera tendrá el valor de false y se
+    terminará el proceso.
+
+9.  media será igual a la suma dividido para el contador
+
+10. Presentar en pantalla el valor de la media
+
+11. Fin

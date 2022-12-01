@@ -13,8 +13,8 @@
 12. Mientras bandera = True entonces
 13.    <<"Ingrese un numero"
 14.    >> numero
-15.    suma <-- suma+numero
-16.    contador <-- contador+1
+15.    suma <-- suma + numero
+16.    contador <-- contador + 1
 17.    <<"Si deseas dejar de ingresar numeros escribe (S, Si, si, s o salir) "
 18.    >> salida
 19.    Si salida == "S" entonces

@@ -14,7 +14,7 @@
 12. <<"Ingrese el valor del ánuglo 3:"
 13. >>angulo3
 
-14. Si angulo1 == 90 entonces or angulo2 == 90 or angulo3 == 90 entonces
+14. Si angulo1 == 90 or angulo2 == 90 or angulo3 == 90 entonces
 15. 	<<”Los datos ingresados pertenecen a un triàngulo: “ + tipo1
 16. De lo contrario
 17. 	Si (angulo1 > 90 and angulo1 < 180) or (angulo2 > 90 and angulo2 < 180) or (angulo3 > 90 and angulo3 < 180) entonces
